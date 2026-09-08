@@ -324,4 +324,5 @@ model AdminActivityLog {
   @@index([createdAt])
   @@map("admin_activity_logs")
 }
+ok
 
