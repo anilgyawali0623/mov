@@ -1,10 +1,10 @@
-import { definePrismaConfig } from "prisma/config";
+import { definePrismaConfig } from 'prisma/config';
 
 export default definePrismaConfig({
-  schema: "prisma/schema.prisma",
+  schema: 'prisma/schema.prisma',
 
   migrations: {
-    path: "prisma/migrations",
+    path: 'prisma/migrations',
   },
 
   datasource: {
@@ -12,6 +12,6 @@ export default definePrismaConfig({
   },
 
   skills: {
-    agents: ["claude", "cursor", "agents", "devin"],
+    agents: ['claude', 'cursor', 'agents', 'devin'],
   },
 });
